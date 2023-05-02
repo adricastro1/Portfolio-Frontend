@@ -21,12 +21,15 @@ function Projects(props) {
   };
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
-  useEffect(() => getProjectsData(), []);
+  useEffect(() => {
+    getProjectsData();
+  });
+
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return projects.map((project) => (
-      <div className="Projects">
+      <div className="Projects zigzag-timeline__item">
         <h1>{project.name}</h1>
         <img src={project.image} />
         <a href={project.git}>
@@ -35,6 +38,7 @@ function Projects(props) {
         <a href={project.live}>
           <button>live site</button>
         </a>
+        <div className="zigzag-timeline__milestone">...</div>
       </div>
     ));
   };
@@ -43,3 +47,5 @@ function Projects(props) {
 }
 
 export default Projects;
+
+
