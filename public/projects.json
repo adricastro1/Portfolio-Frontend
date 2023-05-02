@@ -3,18 +3,18 @@
     "name": "Spaceman",
     "live": "https://adricastro1.github.io/Adriana-Castro-SCST-Project-1/",
     "git": "https://github.com/adricastro1/Adriana-Castro-SCST-Project-1",
-    "image": "https://imgur.com/a/UFIQbgC"
+    "image": "./imgs/Spaceman.png"
   },
   {
     "name": "SEI! Animal Shelter",
     "live": "https://sei-pets-alive.herokuapp.com/",
     "git": "https://github.com/Adamtpacz/sei-pets-alive",
-    "image": "https://imgur.com/a/UYQE0YC"
+    "image": "./imgs/SEI-Pets-Alive.png"
   },
   {
     "name": "On the Same Page",
     "live": "https://on-the-same-page1.herokuapp.com/",
     "git": "https://github.com/adricastro1/Book-Club",
-    "image": "https://imgur.com/a/EiCRiUe"
+    "image": "./imgs/On-The-Same-Page.png"
   }
 ]
