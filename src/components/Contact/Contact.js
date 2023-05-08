@@ -7,9 +7,9 @@ function Contact(props) {
       <div>
         <img className="contact-img" src="../../imgs/contact.png" alt="contact-background"/>
         <div className="contact-info">
-          <p>adricastro1196@gmail.com</p>
+          <h1>Let's Chat!</h1>
+          <h5>adricastro1196@gmail.com</h5>
           <Mail/>
-
         </div>
       </div>
     </section>

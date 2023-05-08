@@ -1,3 +1,4 @@
+import './Mail.css'
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -55,12 +56,18 @@ export default function Mail() {
 
   return (
     <form onSubmit={handleSubmit}>
+    <div className='form-top'>
+    <div>
       <label>Name:</label>
       <input type="text" name="user_name" required />
+    </div>
+    <div>
       <label>Email:</label>
       <input type="email" name="user_email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+    </div>
+    </div>
       <label>Message:</label>
-      <textarea name="message" required></textarea>
+      <textarea name="message" rows='8' required></textarea>
       <input type="submit" value="Send" />
     </form>
   );

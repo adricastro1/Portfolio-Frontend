@@ -13,8 +13,8 @@ section.Projects {
     align-items: center;
     gap: 1em;
     padding: 2em;
-    color: #262b4f;
-    background-color: #d9dae086;
+    color: #16182b;
+    background-color: #dbd3cebf;
     box-shadow: 4px 4px 6px #303030;
     border-radius: 1em;
 }
@@ -47,7 +47,7 @@ section.Projects {
 }
 
 .site-btns button > a {
-    color: #262b4f;
+    color: #16182b;
     text-decoration: none;
     font-size: 1.5em;
 }
