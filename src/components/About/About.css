@@ -39,3 +39,24 @@ section.About {
     }
 
 }
+
+@media only screen and (max-width: 550px) {
+
+    section.About {
+        height: 900px;
+        padding: 20px 30px 60px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .About-info {
+        font-size: 1em;
+        gap: 1em;
+    }
+
+    .About img {
+        height: 300px;
+    }
+
+}

@@ -86,3 +86,24 @@ section.Projects {
     }
   }
   
+
+
+@media only screen and (max-width: 550px) {
+
+    section.Projects {
+        padding: 100px 30px 30px 30px;
+        font-size: .5em;
+      }
+
+    .site-btns {
+        gap: 1em;
+    }
+
+    .site-btns button{
+        padding: 5px 5px;
+        border: 1px solid #848383;
+        border-radius: .5em;
+        box-shadow: 3px 3px 5px #6a6a6a;
+    }
+
+}
