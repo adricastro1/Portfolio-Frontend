@@ -35,7 +35,7 @@ section.Projects {
 }
 
 .site-btns button{
-    padding: 15px;
+    padding: 10px 20px;
     border: 1px solid #848383;
     border-radius: .5em;
     box-shadow: 3px 3px 5px #6a6a6a;
@@ -50,9 +50,40 @@ section.Projects {
     color: #16182b;
     text-decoration: none;
     font-size: 1.5em;
+    font-weight: 700;
 }
 
 .site-btns button > a:hover {
     text-decoration: none;
     font-size: 1.5em;
 }
+
+@media only screen and (max-width: 1024px) {
+    section.Projects {
+      height: auto;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: .7em;
+    }
+  
+    .Card {
+      height: auto;
+      margin-bottom: 2em;
+    }
+  
+    .Card > img {
+      height: auto;
+      max-width: 100%;
+    }
+
+    .site-btns button > a {
+        font-size: 1em;
+    }
+  
+    .site-btns button {
+      margin-bottom: 2em;
+    }
+  }
+  

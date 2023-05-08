@@ -29,11 +29,11 @@ function Header() {
           <h3>CONTACT INFO</h3>
         </Link>
         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
-          <FaTimes />
+          <FaTimes/>
         </button>
       </nav>
       <button className='nav-btn' onClick={showNavbar}>
-        <FaBars />
+        <FaBars/>
       </button>
     </header>
   );

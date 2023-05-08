@@ -1,14 +1,11 @@
-.About {
-    background-color: #33465e;
+section.About {
+    display: grid;
+    grid-template-columns: 45% 35%;
+    gap: 2em;
 }
 
-.About h3 {
-    font-family: 'Playfair Display', serif;
-
-}
 
 .About-info {
-    width: 700px;
     text-align: center;
     font-size: 1.7em;
     display: flex;
@@ -16,8 +13,24 @@
     gap: 2em;
 }
 
+.About h3 {
+    font-family: 'Playfair Display', serif;
+}
+
 .Collage {
-    height: 500px;
-    width: 600px;
+    height: 600px;
     border: white 2px solid;
+}
+
+@media only screen and (max-width: 1024px){
+    .About-info {
+        font-size: 1em;
+        gap: 1em;
+    }
+    
+    .Collage {
+        height: 400px;
+        border: white 2px solid;
+    }
+
 }

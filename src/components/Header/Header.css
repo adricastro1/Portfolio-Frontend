@@ -46,6 +46,10 @@ header .nav-btn {
   font-size: 1.5rem;
 }
 
+.nav-btn > svg {
+  fill: #16182b;
+}
+
 @media only screen and (max-width: 1024px){
   header .nav-btn{
     visibility: visible;

@@ -67,7 +67,7 @@ export default function Mail() {
     </div>
     </div>
       <label>Message:</label>
-      <textarea name="message" rows='8' required></textarea>
+      <textarea name="message" rows='5' required></textarea>
       <input type="submit" value="Send" />
     </form>
   );
