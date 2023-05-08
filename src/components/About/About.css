@@ -23,6 +23,13 @@ section.About {
 }
 
 @media only screen and (max-width: 1024px){
+
+    section.About {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 1em;
+    }
+
     .About-info {
         font-size: 1em;
         gap: 1em;

@@ -40,7 +40,8 @@ svg {
     fill: #e7e8ea;
 }
 
-svg:hover, .icons-1 p:hover {
+svg:hover,
+.icons-1 p:hover {
     fill: #c2c3c5;
 }
 
@@ -54,7 +55,7 @@ svg:hover, .icons-1 p:hover {
     border-radius: .5em;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
     .Home {
         display: flex;
         flex-direction: column;
@@ -67,14 +68,25 @@ svg:hover, .icons-1 p:hover {
     }
 
     .home-info h1 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     .home-info h3 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .Home img {
         height: 310px;
-        width: 220px;    }
+        width: 220px;
+    }
+
+    svg {
+        fill: #e7e8ea;
+        height: .6em;
+        width: .6em;
+    }
+
+    .icons-1 p {
+        font-size: .8em;
+    }
 }
