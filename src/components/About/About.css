@@ -43,7 +43,7 @@ section.About {
 @media only screen and (max-width: 550px) {
 
     section.About {
-        height: 900px;
+        height: 850px;
         padding: 20px 30px 60px 30px;
         display: flex;
         flex-direction: column;

@@ -1,5 +1,5 @@
 section.Contact {
-    padding: 123px 100px 49px;
+    padding: 125px 100px 50px;
 }
 
 .contact-img {
@@ -36,6 +36,10 @@ section.Contact {
 }
 
 @media only screen and (max-width: 1024px){
+    section.Contact {
+        padding: 125px 20px 50px;
+    }
+    
     .contact-img {
         height: 450px;
     }
