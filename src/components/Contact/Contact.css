@@ -58,6 +58,6 @@ section.Contact {
 @media only screen and (max-width: 550px) {
 
     section.Contact {
-        padding: 80px 20px 20px 20px;
+        padding: 20px;
     }
 }
