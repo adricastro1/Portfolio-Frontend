@@ -18,7 +18,7 @@ function About(props) {
       <h3>A little about me</h3>
       <p>{about.bio}</p>
       </div>
-      <div className="Collage"></div>
+      <img src="../../imgs/about-img.png"/>
     </section>
   );
 
