@@ -21,10 +21,10 @@ function Projects(props) {
             <img src={project.image} />
             <div className="site-btns">
               <button>
-                <a href={project.git} target="_blank">Github</a>
+                <a href={project.git} target="_blank" rel="noreferrer noopener">Github</a>
               </button>
               <button>
-                <a href={project.live} target="_blank">Live Site</a>
+                <a href={project.live} target="_blank" rel="noreferrer noopener">Live Site</a>
               </button>
             </div>
           </div>

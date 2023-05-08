@@ -10,13 +10,13 @@ function Home(props) {
         <h3>Software Developer</h3>
         <div className="icons">
           <div className="icons-1">
-            <a href="https://github.com/adricastro1" target="_blank">
+            <a href="https://github.com/adricastro1" target="_blank" rel="noreferrer noopener">
               <FaGithub /> 
             </a>
               <p>Github</p>
           </div>
           <div className="icons-1">
-            <a href="https://www.linkedin.com/in/adriana-s-castro/" target="_blank">
+            <a href="https://www.linkedin.com/in/adriana-s-castro/" target="_blank" rel="noreferrer noopener">
               <FaLinkedin /> 
             </a>
               <p>LinkedIn</p>
