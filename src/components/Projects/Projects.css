@@ -6,7 +6,7 @@ section.Projects {
 }
 
 .Card{
-    height: 650px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,8 @@ section.Projects {
 }
 
 .Card > img {
-    height: 300px;
+    height: 275px;
+    width: auto;
 }
 
 .site-btns {
