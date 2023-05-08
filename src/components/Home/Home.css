@@ -1,0 +1,80 @@
+.Home {
+    background-color: #33465e;
+}
+
+.home-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.home-info h1 {
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+
+}
+
+.home-info h3 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.home-info a {
+    font-size: 2.5em;
+}
+
+.icons {
+    display: flex;
+    gap: 2em;
+}
+
+.icons-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+svg {
+    fill: #e7e8ea;
+}
+
+svg:hover, .icons-1 p:hover {
+    fill: #c2c3c5;
+}
+
+.icons-1 p {
+    font-size: 1.2em;
+}
+
+.Home img {
+    height: 450px;
+    width: 320px;
+    border-radius: .5em;
+}
+
+@media only screen and (max-width: 1024px){
+    .Home {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .home-info {
+        align-items: center;
+        gap: .2em;
+    }
+
+    .home-info h1 {
+        font-size: 3em;
+    }
+
+    .home-info h3 {
+        font-size: 2em;
+    }
+
+    .Home img {
+        height: 310px;
+        width: 220px;    }
+}

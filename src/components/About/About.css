@@ -1,0 +1,23 @@
+.About {
+    background-color: #33465e;
+}
+
+.About h3 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+.About-info {
+    width: 700px;
+    text-align: center;
+    font-size: 1.7em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.Collage {
+    height: 500px;
+    width: 600px;
+    border: white 2px solid;
+}

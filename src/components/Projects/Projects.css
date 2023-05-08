@@ -1,0 +1,58 @@
+section.Projects {
+    height: 1600px;
+    padding: 120px 60px 60px 60px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+
+.Card{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 2em;
+    color: #262b4f;
+    background-color: #d9dae086;
+    box-shadow: 4px 4px 6px #303030;
+    border-radius: 1em;
+}
+
+.Card h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.Card > img {
+    height: 300px;
+}
+
+.site-btns {
+    display: flex;
+    gap: 2em;
+}
+
+.site-btns button{
+    padding: 15px;
+    border: 1px solid #848383;
+    border-radius: .5em;
+    box-shadow: 3px 3px 5px #6a6a6a;
+}
+
+.site-btns button:hover {
+    background-color: #dad8d8;
+    border: 1px solid #aeadad;
+}
+
+.site-btns button > a {
+    color: #262b4f;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.site-btns button > a:hover {
+    text-decoration: none;
+    font-size: 1.5em;
+}
