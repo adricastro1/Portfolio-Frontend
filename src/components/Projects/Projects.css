@@ -1,12 +1,13 @@
 section.Projects {
-    height: 1600px;
+    height: 1000px;
     padding: 120px 60px 60px 60px;
     display: grid;
     grid-template-columns: 45% 45%;
+    margin-bottom: 200px;
 }
 
 .Card{
-    height: 500px;
+    height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +27,7 @@ section.Projects {
 }
 
 .Card > img {
-    height: 275px;
+    height: 200px;
     width: auto;
 }
 

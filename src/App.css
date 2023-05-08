@@ -9,6 +9,7 @@
 .App {
   width: 100vw;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #33465e;
 }
 
 .App > section {
@@ -19,7 +20,6 @@
   align-items: center;
   gap: 4em;
   color: #f4f4f5;
-  background-color: #33465e;
 }
 
 @media only screen and (max-width: 1024px){
