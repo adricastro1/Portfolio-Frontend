@@ -1,6 +1,6 @@
 section.Projects {
     height: 1000px;
-    padding: 120px 60px 60px 60px;
+    padding: 120px 60px 40px 60px;
     display: grid;
     grid-template-columns: 45% 45%;
     margin-bottom: 200px;
@@ -13,22 +13,35 @@ section.Projects {
     justify-content: center;
     align-items: center;
     gap: 1em;
-    padding: 2em;
+    padding: 1em;
     color: #16182b;
     background-color: #dbd3cec6;
     box-shadow: 4px 4px 6px #303030;
-    border-radius: 1em;
+    border-radius: .8em;
 }
 
 .Card h3{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 
-.Card > img {
-    height: 200px;
-    width: auto;
+.project-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custom-slider {
+    height: 250px !important;
+    width: 470px !important;
+}
+
+.rs-carousel-slider-item {
+    padding-right: 40px;
+    background-color: #B5B4B5 !important;
 }
 
 .site-btns {
@@ -38,9 +51,8 @@ section.Projects {
 
 .site-btns button{
     padding: 10px 20px;
-    border: 1px solid #848383;
     border-radius: .5em;
-    box-shadow: 3px 3px 5px #6a6a6a;
+    box-shadow: 3px 3px 5px #878787;
 }
 
 .site-btns button:hover {
@@ -51,13 +63,13 @@ section.Projects {
 .site-btns button > a {
     color: #16182b;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 700;
 }
 
 .site-btns button > a:hover {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 @media only screen and (max-width: 1024px) {

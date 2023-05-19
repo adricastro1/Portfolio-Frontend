@@ -1,26 +1,32 @@
 [
   {
     "name": "Spaceman",
+    "description": "An interactive word-guessing game where players attempt to solve a mystery word before a spaceman character is abducted by aliens.",
     "live": "https://adricastro1.github.io/Adriana-Castro-SCST-Project-1/",
     "git": "https://github.com/adricastro1/Adriana-Castro-SCST-Project-1",
-    "image": "./imgs/Spaceman.png"
+    "image": "./imgs/Spaceman.png",
+    "image1": "./imgs/Spaceman.png"
   },
   {
     "name": "SEI! Animal Shelter",
     "live": "https://sei-pets-alive.herokuapp.com/",
     "git": "https://github.com/Adamtpacz/sei-pets-alive",
-    "image": "./imgs/SEI-Pets-Alive.png"
+    "image": "./imgs/SEI-Pets-Alive.png",
+    "image1": "./imgs/SEI-Pets-Alive.png"
   },
   {
     "name": "On the Same Page",
     "live": "https://on-the-same-page1.herokuapp.com/",
     "git": "https://github.com/adricastro1/Book-Club",
-    "image": "./imgs/On-The-Same-Page.png"
+    "image": "./imgs/On-The-Same-Page.png",
+    "image1": "./imgs/On-The-Same-Page.png"
   },
   {
-    "name": "Project",
-    "live": "https://on-the-same-page1.herokuapp.com/",
-    "git": "https://github.com/adricastro1/Book-Club",
-    "image": "./imgs/On-The-Same-Page.png"
+    "name": "Sofia's Styling",
+    "live": "https://sofiasstyling.netlify.app/",
+    "git": "https://github.com/adricastro1/SS-REACT-FE",
+    "image": "./imgs/Sofiasstyling.png",
+    "image1": "./imgs/Sofiasstyling.png"
+
   }
 ]
