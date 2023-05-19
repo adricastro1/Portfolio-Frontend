@@ -22,10 +22,11 @@ function Projects(props) {
             <h3>{project.name}</h3>
             <section className="project-content">
               <Carousel className="custom-slider" placement='right'>
-                <img src={project.image} alt='carousel-project-img' />
                 <img src={project.image1} alt='carousel-project-img' />
+                <img src={project.image2} alt='carousel-project-img' />
+                <img src={project.image3} alt='carousel-project-img' />
               </Carousel>
-              <p>{project.description}</p>
+              <p className="desc">{project.description}</p>
             </section>
             <div className="site-btns">
               <button>

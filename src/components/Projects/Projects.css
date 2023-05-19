@@ -7,7 +7,7 @@ section.Projects {
 }
 
 .Card{
-    height: 480px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,13 +35,19 @@ section.Projects {
 }
 
 .custom-slider {
+    margin-left: 35px;
     height: 250px !important;
-    width: 470px !important;
+    width: 450px !important;
 }
 
 .rs-carousel-slider-item {
     padding-right: 40px;
     background-color: #B5B4B5 !important;
+}
+
+.desc {
+    padding-top: 15px;
+    font-size: 1.3em;
 }
 
 .site-btns {
