@@ -22,9 +22,9 @@
     "description": "A platform that enables users to discuss and explore books, featuring a monthly book club selection and a curated list of recommended books by fellow members.",
     "live": "https://on-the-same-page1.herokuapp.com/",
     "git": "https://github.com/adricastro1/Book-Club",
-    "image1": "./imgs/On-The-Same-Page.png",
-    "image2": "./imgs/On-The-Same-Page.png",
-    "image3": "./imgs/On-The-Same-Page.png"
+    "image1": "./imgs/OnTheSamePage/otsp1.png",
+    "image2": "./imgs/OnTheSamePage/otsp2.png",
+    "image3": "./imgs/OnTheSamePage/otsp3.png"
   },
   {
     "name": "Sofia's Styling",

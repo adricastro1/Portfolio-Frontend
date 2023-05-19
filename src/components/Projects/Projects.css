@@ -6,7 +6,7 @@ section.Projects {
     margin-bottom: 200px;
 }
 
-.Card{
+.Card {
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -20,13 +20,13 @@ section.Projects {
     border-radius: .8em;
 }
 
-.Card h3{
+.Card h3 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 2.2em;
 }
 
-.project-content{
+.project-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,7 @@ section.Projects {
 .custom-slider {
     margin-left: 35px;
     height: 250px !important;
-    width: 450px !important;
+    width: 430px !important;
 }
 
 .rs-carousel-slider-item {
@@ -55,7 +55,7 @@ section.Projects {
     gap: 2em;
 }
 
-.site-btns button{
+.site-btns button {
     padding: 10px 20px;
     border-radius: .5em;
     box-shadow: 3px 3px 5px #878787;
@@ -66,64 +66,101 @@ section.Projects {
     border: 1px solid #aeadad;
 }
 
-.site-btns button > a {
+.site-btns button>a {
     color: #16182b;
     text-decoration: none;
     font-size: 1em;
     font-weight: 700;
 }
 
-.site-btns button > a:hover {
+.site-btns button>a:hover {
     text-decoration: none;
     font-size: 1em;
 }
 
-@media only screen and (max-width: 1024px) {
+
+@media screen and (min-width: 768px) and (max-width: 1164px) {
     section.Projects {
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: .7em;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: .7em;
+        padding: 120px 120px 40px 120px;
     }
-  
+
     .Card {
-      height: auto;
-      margin-bottom: 2em;
-    }
-  
-    .Card > img {
-      height: auto;
-      max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2em;
     }
 
-    .site-btns button > a {
-        font-size: 1em;
+    .custom-slider {
+        margin-left: 35px;
+        height: 250px !important;
+        width: 400px !important;
     }
-  
+
+    .desc {
+        font-size: 2em;
+    }
+
+    .site-btns button>a {
+        font-size: 1.1em;
+    }
+
     .site-btns button {
-      margin-bottom: 2em;
+        margin-bottom: 2em;
     }
-  }
-  
+}
 
+@media screen and (max-width: 767px) {
 
-@media only screen and (max-width: 550px) {
 
     section.Projects {
         padding: 100px 30px 30px 30px;
-        font-size: .5em;
-      }
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1em;
+    }
 
     .site-btns {
         gap: 1em;
     }
 
-    .site-btns button{
+    .site-btns button {
         padding: 5px 5px;
         border: 1px solid #848383;
         border-radius: .5em;
         box-shadow: 3px 3px 5px #6a6a6a;
     }
+}
+@media screen and (max-width: 520px) {
+    section.Projects {
+        padding: 100px 30px 30px 30px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1em;
+    }
 
+    .custom-slider {
+        margin-left: 35px;
+        height: 150px !important;
+        width: 270px !important;
+    }
+
+    .site-btns {
+        gap: 1em;
+    }
+
+    .site-btns button {
+        padding: 5px 5px;
+        border: 1px solid #848383;
+        border-radius: .5em;
+        box-shadow: 3px 3px 5px #6a6a6a;
+    }
 }
