@@ -3,7 +3,7 @@ section.Projects {
     padding: 120px 60px 40px 60px;
     display: grid;
     grid-template-columns: 45% 45%;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 
 .Card {
