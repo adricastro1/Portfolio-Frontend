@@ -21,12 +21,13 @@ function Projects(props) {
           <div className="Card">
             <h3>{project.name}</h3>
             <section className="project-content">
-              <Carousel className="custom-slider" placement='right'>
+              <Carousel className="custom-slider" placement='right' shape='bar'>
                 <img src={project.image1} alt='carousel-project-img' />
                 <img src={project.image2} alt='carousel-project-img' />
                 <img src={project.image3} alt='carousel-project-img' />
               </Carousel>
               <p className="desc">{project.description}</p>
+              <p className="tech">Build with: {project.technologies}</p>
             </section>
             <div className="site-btns">
               <button>

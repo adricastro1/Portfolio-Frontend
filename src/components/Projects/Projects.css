@@ -7,7 +7,7 @@ section.Projects {
 }
 
 .Card {
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,9 +45,13 @@ section.Projects {
     background-color: #B5B4B5 !important;
 }
 
-.desc {
+.desc, .tech {
     padding-top: 15px;
     font-size: 1.3em;
+}
+
+.tech {
+    font-weight: 600;
 }
 
 .site-btns {
@@ -101,7 +105,7 @@ section.Projects {
         width: 400px !important;
     }
 
-    .desc {
+    .desc , .tech{
         font-size: 2em;
     }
 

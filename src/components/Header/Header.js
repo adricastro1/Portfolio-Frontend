@@ -25,6 +25,10 @@ function Header() {
           <h3>PROJECTS</h3>
         </Link>
 
+        <Link to="#tech" smooth onClick={() => showNavbar()}>
+          <h3>TECHNOLOGIES</h3>
+        </Link>
+
         <Link to="#contact" smooth onClick={() => showNavbar()}>
           <h3>CONTACT INFO</h3>
         </Link>

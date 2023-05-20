@@ -2,6 +2,7 @@
   {
     "name": "Spaceman",
     "description": "An interactive word-guessing game where players attempt to solve a mystery word before a spaceman character is abducted by aliens.",
+    "technologies": "JavaScript | CSS | HTML",
     "live": "https://adricastro1.github.io/Adriana-Castro-SCST-Project-1/",
     "git": "https://github.com/adricastro1/Adriana-Castro-SCST-Project-1",
     "image1": "./imgs/Spaceman/spaceman3.png",
@@ -11,15 +12,17 @@
   {
     "name": "SEI! Animal Shelter",
     "description": " A dog adoption app that allows users to browse through a selection of furry companions, submit adoption applications, and track the status of their own applications.",
+    "technologies": "JavaScript | ExpressJS | MongoDB",
     "live": "https://sei-pets-alive.herokuapp.com/",
     "git": "https://github.com/Adamtpacz/sei-pets-alive",
-    "image1": "./imgs/SEI-Pets-Alive.png",
-    "image2": "./imgs/SEI-Pets-Alive.png",
-    "image3": "./imgs/SEI-Pets-Alive.png"
+    "image1": "./imgs/SEIPetsAlive/sei.png",
+    "image2": "./imgs/SEIPetsAlive/sei1.png",
+    "image3": "./imgs/SEIPetsAlive/sei2.png"
   },
   {
     "name": "On the Same Page",
     "description": "A platform that enables users to discuss and explore books, featuring a monthly book club selection and a curated list of recommended books by fellow members.",
+    "technologies": "Python | Django | PostgreSQL",
     "live": "https://on-the-same-page1.herokuapp.com/",
     "git": "https://github.com/adricastro1/Book-Club",
     "image1": "./imgs/OnTheSamePage/otsp1.png",
@@ -30,6 +33,7 @@
     "name": "Sofia's Styling",
     "description": 
     "Allows users to discover professional stylists, explore their detailed profiles, read reviews from other clients, and communicate with the stylists to avail styling services.",
+    "technologies": "JavaScript, React | Airtable API",
     "live": "https://sofiasstyling.netlify.app/",
     "git": "https://github.com/adricastro1/SS-REACT-FE",
     "image1": "./imgs/SofiasStyling/ss3.png",

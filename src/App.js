@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import Technologies from "./components/Technologies/Techs";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Home />
         <About URL={URL} />
         <Projects URL={URL} />
+        <Technologies />
         <Contact />
       </>
     </div>
