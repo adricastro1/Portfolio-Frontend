@@ -16,7 +16,7 @@ section.Projects {
     padding: 1em;
     color: #16182b;
     background-color: #dbd3cec6;
-    box-shadow: 4px 4px 6px #303030;
+    box-shadow: 3px 3px 10px #16182b;
     border-radius: .8em;
 }
 
@@ -138,7 +138,7 @@ section.Projects {
         padding: 5px 5px;
         border: 1px solid #848383;
         border-radius: .5em;
-        box-shadow: 3px 3px 10px #16182b;
+        box-shadow: 3px 3px 5px #6a6a6a;
     }
 }
 @media screen and (max-width: 520px) {
