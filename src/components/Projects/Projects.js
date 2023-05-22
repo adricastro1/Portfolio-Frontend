@@ -4,7 +4,7 @@ import 'rsuite/dist/rsuite-no-reset.min.css';
 import { Carousel } from 'rsuite';
 
 function Projects(props) {
-  const [projects, setProjects] = useState(null);
+  const [projects, setProjects] = useState([]);
 
   const getProjectsData = async () => {
     const response = await fetch("./projects.json");
@@ -18,7 +18,7 @@ function Projects(props) {
     return (
       <section className="Projects" id="projects">
         {projects.map((project) => (
-          <div className="Card">
+          <div className="Card" key={project.id}>
             <h3>{project.name}</h3>
             <section className="project-content">
               <Carousel className="custom-slider" placement='right' shape='bar'>
@@ -44,7 +44,7 @@ function Projects(props) {
   };
 
 
-  return projects ? loaded() : <h1>Loading...</h1>;
+  return projects.length > 0 ? loaded() : <h1>Loading...</h1>;
 }
 
 export default Projects;
