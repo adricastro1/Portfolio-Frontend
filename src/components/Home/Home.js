@@ -3,6 +3,19 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { HiDocumentDownload } from "react-icons/hi";
 
 function Home(props) {
+
+  const onButtonClick = () => {
+    fetch('Adriana_Castro_Resume.pdf').then(response => {
+        response.blob().then(blob => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Adriana_Castro_Resume.pdf';
+            alink.click();
+        })
+    })
+}
+
   return (
     <section className="Home" id="home">
       <img src="../../imgs/home-img.jpeg" />
@@ -23,7 +36,7 @@ function Home(props) {
             <p>LinkedIn</p>
           </div>
           <div className="icons-1">
-            <a><HiDocumentDownload /></a>
+            <a onClick={onButtonClick}><HiDocumentDownload/></a>
             <p>Resume</p>
           </div>
         </div>

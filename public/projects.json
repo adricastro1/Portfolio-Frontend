@@ -33,7 +33,7 @@
     "name": "Sofia's Styling",
     "description": 
     "Allows users to discover professional stylists, explore their detailed profiles, read reviews from other clients, and communicate with the stylists to avail styling services.",
-    "technologies": "JavaScript, React | Airtable API",
+    "technologies": "JavaScript | React | Airtable API",
     "live": "https://sofiasstyling.netlify.app/",
     "git": "https://github.com/adricastro1/SS-REACT-FE",
     "image1": "./imgs/SofiasStyling/ss3.png",
