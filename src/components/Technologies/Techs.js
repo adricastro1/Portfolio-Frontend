@@ -3,6 +3,9 @@ import "./Techs.css"
 function Technologies(props) {
     return (
         <section className="Tech" id="tech">
+        <div>
+            <h1 className="Skills-title">Skills:</h1>
+        </div>
             <div>
                 <i className="devicon-css3-plain"></i>
 
@@ -55,11 +58,6 @@ function Technologies(props) {
             </div>
 
             <div>
-                <i className="devicon-heroku-original"></i>
-                <h2>Heroku</h2>
-            </div>
-
-            <div>
                 <i className="devicon-mongodb-plain"></i>
                 <h2>MongoDb</h2>
             </div>
@@ -86,10 +84,10 @@ function Technologies(props) {
 
             <div>
 
-            <i className="devicon-npm-original-wordmark"></i>
-                          <h2>NPM</h2>
+                <i className="devicon-npm-original-wordmark"></i>
+                <h2>NPM</h2>
             </div>
-            
+
             <div>
                 <i className="devicon-vscode-plain"></i>
                 <h2>VSCode</h2>

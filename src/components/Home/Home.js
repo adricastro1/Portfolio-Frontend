@@ -36,7 +36,9 @@ function Home(props) {
             <p>LinkedIn</p>
           </div>
           <div className="icons-1">
-            <a onClick={onButtonClick}><HiDocumentDownload/></a>
+            <a href="https://docs.google.com/document/d/17ihgdD-UOvKCL-rulTHq2tO8K1gaW4pUjpEP7iUch6I/edit?usp=sharing" target="_blank" rel="noreferrer noopener">
+            <HiDocumentDownload/>
+            </a>
             <p>Resume</p>
           </div>
         </div>
